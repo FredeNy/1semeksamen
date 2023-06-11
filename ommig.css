@@ -1,7 +1,36 @@
+main h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  margin-top: 102px;
+  margin-left: -15%;
+}
+
+main h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  margin-top: 102px;
+  margin-left: -15%;
+}
+
+main h3 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  margin-top: 102px;
+  margin-left: -15%;
+}
+
 main p {
-  font: size 20px;
+  font-size: 20px;
   font-weight: 300;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-left: 5%;
 }
 
 main li {
@@ -11,7 +40,68 @@ main li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main img {
+  aspect-ratio: 8/6;
+  width: 400px;
+  margin-left: -10%;
+  margin-top: 0.5%;
+}
+
 @media (max-width: 600px) {
+  main h1 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    margin-top: 40px;
+    margin-left: -50%;
+  }
+
+  main h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    margin-top: 102px;
+    margin-left: -15%;
+  }
+
+  main h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    margin-top: 102px;
+    margin-left: -15%;
+  }
+
+  main p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 5%;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  main li {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -10%;
+    margin-bottom: 30%;
+    text-align: left;
+  }
+
+  main img {
+    aspect-ratio: 8/6;
+    width: 200px;
+    margin-left: -15%;
+    margin-top: 4%;
+  }
 }
 
 @media (min-width: 601px) {
