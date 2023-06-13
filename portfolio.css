@@ -54,12 +54,23 @@ main p {
   text-align: left;
   margin-top: 5%;
   margin-left: 3%;
-  max-width: 65ch;
+  max-width: 75ch;
+  color: rgb(16, 15, 57);
+}
+
+main p1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 3%;
+  max-width: 75ch;
   color: rgb(12, 11, 44);
 }
 
 .box {
-  background-color: #342baa;
+  background-color: #003a7f;
   height: 60%;
   width: 15%;
   left: 20%;
@@ -69,7 +80,7 @@ main p {
 }
 
 .box1 {
-  background-color: #342baa;
+  background-color: #003a7f;
   height: 60%;
   width: 15%;
   left: 20%;
@@ -79,7 +90,7 @@ main p {
 }
 
 .box2 {
-  background-color: #342baa;
+  background-color: #003a7f;
   height: 60%;
   width: 18%;
   left: 20%;
@@ -163,6 +174,17 @@ button {
   }
 
   main p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    text-align: inherit;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 65ch;
+    color: rgb(12, 11, 44);
+  }
+  main p1 {
     font-size: 18px;
     font-weight: 300;
     font-family: "Times New Roman", Times, serif;
