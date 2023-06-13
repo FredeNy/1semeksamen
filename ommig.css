@@ -3,8 +3,8 @@ main {
   max-width: 1000px;
   margin: 15%;
   border-radius: 4px;
-  margin-top: 2%;
-  height: 900px;
+  margin-top: 3%;
+  height: 800px;
 }
 
 main h1 {
@@ -12,9 +12,8 @@ main h1 {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(20, 47, 134);
-  margin-top: 12%;
+  margin-top: 15%;
   margin-left: -10%;
-  display: flex;
 }
 
 main h2 {
@@ -36,22 +35,24 @@ main h3 {
 }
 
 main p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(19, 17, 70);
   margin-top: 50px;
   margin-left: 5%;
   margin-bottom: 30%;
   text-align: left;
+  max-width: 65ch;
 }
 
 main li {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(19, 17, 70);
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-bottom: 3%;
   text-align: start;
 }
@@ -65,12 +66,12 @@ main img {
 
 @media (max-width: 600px) {
   main h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(19, 17, 70);
-    margin-top: 60px;
-    margin-left: -20%;
+    color: rgb(20, 47, 134);
+    margin-top: 55px;
+    margin-left: -50%;
   }
 
   main h2 {
@@ -78,7 +79,7 @@ main img {
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(19, 17, 70);
-    margin-top: 102px;
+    margin-top: 10px;
     margin-left: -15%;
   }
 
@@ -92,19 +93,21 @@ main img {
   }
 
   main p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: 10%;
     text-align: left;
     font-weight: 500;
+    max-width: 65ch;
+    color: rgb(19, 17, 70);
   }
 
   main li {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(19, 17, 70);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
     margin-left: 15%;
@@ -120,9 +123,9 @@ main img {
   }
   main {
     background-color: #ffffff;
-    margin: 1%;
+    margin: 5%;
     border-radius: 4px;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .grid_2-1 {

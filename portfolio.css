@@ -1,8 +1,8 @@
 main {
   background-color: #ffffff;
-  margin: 1%;
+  margin: 5%;
   border-radius: 5px;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 main h1 {
@@ -48,12 +48,14 @@ main h4 {
 }*/
 
 main p {
-  font: size 20px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
   font-family: "Times New Roman", Times, serif;
-  text-align: justify;
+  text-align: left;
   margin-top: 5%;
-  margin-left: 1%;
+  margin-left: 3%;
+  max-width: 65ch;
+  color: rgb(12, 11, 44);
 }
 
 .box {
@@ -103,24 +105,23 @@ hr.solid {
 }*/
 
 img {
-  justify-content: end;
   width: 300px;
   height: 200px;
-  margin-left: 30%;
+  margin-right: 0%;
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 button {
-  width: 150px;
+  width: 300px;
   background-color: #7bde8f;
   border-color: #7bde8f;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  margin-left: 127%;
-  margin-top: -5%;
+  font-size: 18px;
+  margin-left: 104%;
+  margin-top: -2%;
   margin-bottom: 2%;
 }
 
@@ -140,7 +141,7 @@ button {
   }
 
   .box1 {
-    width: 25%;
+    width: 30%;
   }
 
   main h4 {
@@ -149,25 +150,28 @@ button {
   }
 
   .box2 {
-    width: 25%;
+    width: 40%;
   }
 
   img {
     justify-content: center;
     width: 300px;
     height: 200px;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-right: 100%;
+    margin: 5%;
   }
 
   main p {
-    font: size 20px;
+    font-size: 18px;
     font-weight: 300;
     font-family: "Times New Roman", Times, serif;
     text-align: inherit;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 65ch;
+    color: rgb(12, 11, 44);
   }
 
   button {
@@ -179,9 +183,8 @@ button {
     font-family: monospace;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 34%;
+    margin-left: 28%;
     margin-bottom: 5%;
-    margin-top: -20%;
   }
 }
 
