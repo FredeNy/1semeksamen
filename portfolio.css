@@ -1,3 +1,10 @@
+main {
+  background-color: #ffffff;
+  margin: 1%;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
 main h1 {
   font-size: 50px;
   font-weight: 600;
@@ -32,37 +39,89 @@ main h4 {
   text-align: center;
 }
 
+/*main h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}*/
+
 main p {
   font: size 20px;
   font-weight: 300;
   font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  margin-top: 5%;
+  margin-left: 1%;
 }
 
 .box {
-  background-color: #b650db;
+  background-color: #342baa;
   height: 60%;
   width: 15%;
   left: 20%;
   top: 20%;
   border-radius: 4px;
+  margin-top: 0%;
 }
 
 .box1 {
-  background-color: #7bde8f;
+  background-color: #342baa;
   height: 60%;
   width: 15%;
   left: 20%;
   top: 20%;
   border-radius: 4px;
+  margin-top: 0%;
 }
 
 .box2 {
-  background-color: #5083db;
+  background-color: #342baa;
   height: 60%;
   width: 18%;
   left: 20%;
   top: 20%;
   border-radius: 4px;
+  margin-top: 0%;
+}
+
+/* Solid border */
+hr.solid {
+  border: 3px solid #8fbcff;
+}
+
+/*.boks {
+  background-color: #50db69;
+  height: 30%;
+  width: 30%;
+  left: 20%;
+  top: 10%;
+  border-radius: 4px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}*/
+
+img {
+  justify-content: end;
+  width: 300px;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+button {
+  width: 150px;
+  background-color: #7bde8f;
+  border-color: #7bde8f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 127%;
+  margin-top: -5%;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 600px) {
@@ -91,6 +150,38 @@ main p {
 
   .box2 {
     width: 25%;
+  }
+
+  img {
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 100%;
+  }
+
+  main p {
+    font: size 20px;
+    font-weight: 300;
+    font-family: "Times New Roman", Times, serif;
+    text-align: inherit;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+    background-color: #7bde8f;
+    border-color: #7bde8f;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 34%;
+    margin-bottom: 5%;
+    margin-top: -20%;
   }
 }
 

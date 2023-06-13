@@ -1,17 +1,27 @@
+main {
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 15%;
+  border-radius: 4px;
+  margin-top: 2%;
+  height: 900px;
+}
+
 main h1 {
   font-size: 50px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  color: blueviolet;
-  margin-top: 102px;
-  margin-left: -15%;
+  color: rgb(20, 47, 134);
+  margin-top: 12%;
+  margin-left: -10%;
+  display: flex;
 }
 
 main h2 {
   font-size: 50px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  color: blueviolet;
+  color: rgb(20, 47, 134);
   margin-top: 102px;
   margin-left: -15%;
 }
@@ -31,6 +41,8 @@ main p {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
   margin-left: 5%;
+  margin-bottom: 30%;
+  text-align: left;
 }
 
 main li {
@@ -38,12 +50,16 @@ main li {
   font-weight: 600;
   color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  text-align: start;
 }
 
 main img {
   aspect-ratio: 8/6;
   width: 400px;
-  margin-left: -10%;
+  margin-left: -5%;
   margin-top: 0.5%;
 }
 
@@ -52,16 +68,16 @@ main img {
     font-size: 25px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
-    margin-top: 40px;
-    margin-left: -50%;
+    color: rgb(19, 17, 70);
+    margin-top: 60px;
+    margin-left: -20%;
   }
 
   main h2 {
     font-size: 50px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
+    color: rgb(19, 17, 70);
     margin-top: 102px;
     margin-left: -15%;
   }
@@ -70,9 +86,9 @@ main img {
     font-size: 50px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    color: blueviolet;
+    color: rgb(19, 17, 70);
     margin-top: 102px;
-    margin-left: -15%;
+    margin-left: 5%;
   }
 
   main p {
@@ -88,19 +104,55 @@ main img {
   main li {
     font-size: 15px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
-    margin-left: -10%;
-    margin-bottom: 30%;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 3%;
     text-align: left;
   }
 
   main img {
     aspect-ratio: 8/6;
     width: 200px;
-    margin-left: -15%;
+    margin-left: -5%;
     margin-top: 4%;
+  }
+  main {
+    background-color: #ffffff;
+    margin: 1%;
+    border-radius: 4px;
+    margin-top: 5%;
+  }
+
+  .grid_2-1 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 2fr 1fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  .grid_2-2 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 2fr 2fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 2fr;
+    grid-column: auto;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
   }
 }
 
